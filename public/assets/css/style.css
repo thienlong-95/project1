@@ -301,6 +301,7 @@ footer .column:nth-of-type(4) p {
 @media screen and (max-width: 1331px) {
   .section-1 {
     padding: 5em 0;
+    padding-top: 20em;
   }
 }
 
@@ -358,14 +359,21 @@ footer .column:nth-of-type(4) p {
 .section-1__right > img {
   justify-self: center;
   align-self: end;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+  -webkit-transform: translateY(2%);
+  transform: translateY(2%);
+}
+
+@media screen and (max-width: 1338px) {
+  .section-1__right > img {
+    -webkit-transform: translateY(-28%);
+    transform: translateY(-28%);
+  }
 }
 
 @media screen and (max-width: 1331px) {
   .section-1__right {
-    top: 0%;
-    right: 22%;
+    top: -7%;
+    right: 8%;
   }
 }
 
